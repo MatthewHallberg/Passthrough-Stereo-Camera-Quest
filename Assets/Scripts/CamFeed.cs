@@ -19,7 +19,8 @@ public class CamFeed : MonoBehaviour {
         //logitech 1920 by 1080
         webcamTexture = new WebCamTexture(GetWebCamDevice(),960,540,30);
         Renderer renderer = GetComponent<Renderer>();
-        renderer.material.mainTexture = webcamTexture;
+        renderer.material.SetTexture("_BaseMap", webcamTexture);
+        //renderer.material.mainTexture = webcamTexture;
         webcamTexture.Play();
     }
 
