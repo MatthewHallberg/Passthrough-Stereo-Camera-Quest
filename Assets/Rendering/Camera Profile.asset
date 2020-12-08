@@ -21,12 +21,12 @@ MonoBehaviour:
     max: 1
   xMultiplier:
     m_OverrideState: 1
-    m_Value: 0.187
+    m_Value: 0
     min: 0
     max: 1
   yMultiplier:
     m_OverrideState: 1
-    m_Value: 0.055
+    m_Value: 0
     min: 0
     max: 1
   center:
@@ -34,7 +34,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.16}
   scale:
     m_OverrideState: 1
-    m_Value: 1.31
+    m_Value: 0.01
     min: 0.01
     max: 5
 --- !u!114 &11400000

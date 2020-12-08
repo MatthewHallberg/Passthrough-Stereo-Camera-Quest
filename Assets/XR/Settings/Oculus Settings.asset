@@ -19,5 +19,5 @@ MonoBehaviour:
   V2Signing: 1
   LowOverheadMode: 0
   ProtectedContext: 0
-  FocusAware: 1
+  FocusAware: 0
   OptimizeBufferDiscards: 1

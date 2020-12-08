@@ -430,7 +430,7 @@ PlayerSettings:
   openGLRequireES32: 0
   m_TemplateCustomTags: {}
   mobileMTRendering:
-    Android: 1
+    Android: 0
     iPhone: 1
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality: []
@@ -759,5 +759,5 @@ PlayerSettings:
   organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 1
-  disableOldInputManagerSupport: 1
+  disableOldInputManagerSupport: 0
   legacyClampBlendShapeWeights: 0
