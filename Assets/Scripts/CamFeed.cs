@@ -37,6 +37,6 @@ public class CamFeed : MonoBehaviour {
         foreach (WebCamDevice device in devices) {
             print(device.name);
         }
-        return devices[1].name;
+        return devices[devices.Length - 1].name;
     }
 }
